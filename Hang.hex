@@ -1,0 +1,5642 @@
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showNumber(_1B)
+})
+input.onButtonPressed(Button.A, function () {
+    if (_switch == 0) {
+        Zahl += -1
+        if (Zahl == 0) {
+            Zahl = 10
+        }
+        if (Zahl == 11) {
+            Zahl = 1
+        }
+        if (Zahl == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Zahl == 2) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Zahl == 3) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . # # # .
+                . . . # .
+                . # # # .
+                `)
+        }
+        if (Zahl == 4) {
+            basic.showLeds(`
+                . . . # .
+                . . # # .
+                . # . # .
+                . # # # .
+                . . . # .
+                `)
+        }
+        if (Zahl == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # # .
+                `)
+        }
+        if (Zahl == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Zahl == 7) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Zahl == 8) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Zahl == 9) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . . . # .
+                . # # # .
+                `)
+        }
+        if (Zahl == 10) {
+            basic.showLeds(`
+                # . # # #
+                # . # . #
+                # . # . #
+                # . # . #
+                # . # # #
+                `)
+        }
+    }
+    if (_switch == 2) {
+        Buchstabe += -1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 3) {
+        Buchstabe += -1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 4) {
+        Buchstabe += -1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 5) {
+        Buchstabe += -1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 7) {
+        Buchstabe += -1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 8) {
+        Buchstabe += -1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 9) {
+        Buchstabe += -1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 10) {
+        Buchstabe += -1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 11) {
+        Buchstabe += -1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (log == 3) {
+        Buchstabe += -1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+})
+input.onButtonPressed(Button.AB, function () {
+    if (Fehler == 1) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+    if (Fehler == 2) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+    if (Fehler == 3) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+    if (Fehler == 4) {
+        basic.showLeds(`
+            . . . . .
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+    if (Fehler == 5) {
+        basic.showLeds(`
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+    }
+    if (Fehler == 6) {
+        basic.showLeds(`
+            . . # . .
+            . . # # .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+    }
+    if (Fehler == 7) {
+        basic.showLeds(`
+            . . # . .
+            . # # # .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+    }
+    if (Fehler == 8) {
+        basic.showLeds(`
+            . . # . .
+            # # # # .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+    }
+    if (_switch > 2) {
+        _switch += 1
+    }
+    if (_switch == 2) {
+        _1B = 0
+        Ben = 1
+        _1B = Buchstabe
+        _switch = 3
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (_switch == 0) {
+        _switch = 2
+        basic.showString("WAEHLE!")
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (_switch == 4) {
+        Ben += 1
+        _2B = Buchstabe
+        _switch = 5
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (_switch == 6) {
+        Ben += 1
+        _3B = Buchstabe
+        _switch = 7
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (_switch == 8) {
+        Ben += 1
+        _4B = Buchstabe
+        _switch = 9
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (_switch == 10) {
+        Ben += 1
+        _5B = Buchstabe
+        _switch = 11
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (_switch == 12) {
+        Ben += 1
+        _6B = Buchstabe
+        _switch = 13
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (_switch == 14) {
+        Ben += 1
+        _7B = Buchstabe
+        _switch = 15
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (_switch == 16) {
+        Ben += 1
+        _8B = Buchstabe
+        _switch = 17
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (_switch == 18) {
+        Ben += 1
+        _9B = Buchstabe
+        _switch = 19
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (_switch == 20) {
+        Ben += 1
+        _10B = Buchstabe
+        _switch = 21
+        Buchstabe = 1
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+    if (log == 3) {
+        nichts = 1
+        if (_1B == Buchstabe) {
+            basic.showNumber(1)
+            basic.pause(2000)
+            basic.showLeds(`
+                . . . . .
+                . . . . #
+                . . . # .
+                # . # . .
+                . # . . .
+                `)
+            rights += 1
+            _1B = 28
+            nichts = 0
+        }
+        if (_2B == Buchstabe) {
+            basic.showNumber(2)
+            basic.pause(2000)
+            basic.showLeds(`
+                . . . . .
+                . . . . #
+                . . . # .
+                # . # . .
+                . # . . .
+                `)
+            rights += 1
+            _2B = 28
+            nichts = 0
+        }
+        if (_3B == Buchstabe) {
+            basic.showNumber(3)
+            basic.pause(2000)
+            basic.showLeds(`
+                . . . . .
+                . . . . #
+                . . . # .
+                # . # . .
+                . # . . .
+                `)
+            rights += 1
+            _3B = 28
+            nichts = 0
+        }
+        if (_4B == Buchstabe) {
+            basic.showNumber(4)
+            basic.pause(2000)
+            basic.showLeds(`
+                . . . . .
+                . . . . #
+                . . . # .
+                # . # . .
+                . # . . .
+                `)
+            rights += 1
+            _4B = 28
+            nichts = 0
+        }
+        if (_5B == Buchstabe) {
+            basic.showNumber(5)
+            basic.pause(2000)
+            basic.showLeds(`
+                . . . . .
+                . . . . #
+                . . . # .
+                # . # . .
+                . # . . .
+                `)
+            rights += 1
+            _5B = 28
+            nichts = 0
+        }
+        if (_6B == Buchstabe) {
+            basic.showNumber(6)
+            basic.pause(2000)
+            basic.showLeds(`
+                . . . . .
+                . . . . #
+                . . . # .
+                # . # . .
+                . # . . .
+                `)
+            rights += 1
+            _6B = 28
+            nichts = 0
+        }
+        if (_7B == Buchstabe) {
+            basic.showNumber(7)
+            basic.pause(2000)
+            basic.showLeds(`
+                . . . . .
+                . . . . #
+                . . . # .
+                # . # . .
+                . # . . .
+                `)
+            rights += 1
+            _7B = 28
+            nichts = 0
+        }
+        if (_8B == Buchstabe) {
+            basic.showNumber(8)
+            basic.pause(2000)
+            basic.showLeds(`
+                . . . . .
+                . . . . #
+                . . . # .
+                # . # . .
+                . # . . .
+                `)
+            rights += 1
+            _8B = 28
+            nichts = 0
+        }
+        if (_9B == Buchstabe) {
+            basic.showNumber(9)
+            basic.pause(2000)
+            basic.showLeds(`
+                . . . . .
+                . . . . #
+                . . . # .
+                # . # . .
+                . # . . .
+                `)
+            rights += 1
+            _9B = 28
+            nichts = 0
+        }
+        if (_10B == Buchstabe) {
+            basic.showNumber(10)
+            basic.pause(100)
+            basic.showLeds(`
+                . . . . .
+                . . . . #
+                . . . # .
+                # . # . .
+                . # . . .
+                `)
+            rights += 1
+            _10B = 28
+            nichts = 0
+        }
+        if (nichts == 1) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+            Fehler += 1
+        }
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    if (_switch == 0) {
+        Zahl += 1
+        if (Zahl == 0) {
+            Zahl = 10
+        }
+        if (Zahl == 11) {
+            Zahl = 1
+        }
+        if (Zahl == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Zahl == 2) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Zahl == 3) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . # # # .
+                . . . # .
+                . # # # .
+                `)
+        }
+        if (Zahl == 4) {
+            basic.showLeds(`
+                . . . # .
+                . . # # .
+                . # . # .
+                . # # # .
+                . . . # .
+                `)
+        }
+        if (Zahl == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # # .
+                `)
+        }
+        if (Zahl == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Zahl == 7) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Zahl == 8) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Zahl == 9) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . . . # .
+                . # # # .
+                `)
+        }
+        if (Zahl == 10) {
+            basic.showLeds(`
+                # . # # #
+                # . # . #
+                # . # . #
+                # . # . #
+                # . # # #
+                `)
+        }
+    }
+    if (_switch == 2) {
+        Buchstabe += 1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 3) {
+        Buchstabe += 1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 4) {
+        Buchstabe += 1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 5) {
+        Buchstabe += 1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 7) {
+        Buchstabe += 1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 8) {
+        Buchstabe += 1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 9) {
+        Buchstabe += 1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 10) {
+        Buchstabe += 1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (_switch == 11) {
+        Buchstabe += 1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+    if (log == 3) {
+        Buchstabe += 1
+        if (Buchstabe == 0) {
+            Buchstabe = 26
+        }
+        if (Buchstabe == 27) {
+            Buchstabe = 1
+        }
+        if (Buchstabe == 1) {
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 2) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 3) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 4) {
+            basic.showLeds(`
+                . # # . .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 5) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 6) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 7) {
+            basic.showLeds(`
+                . # # # .
+                . # . . .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 8) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 9) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 10) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 11) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # . .
+                . # . # .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 12) {
+            basic.showLeds(`
+                . # . . .
+                . # . . .
+                . # . . .
+                . # . . .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 13) {
+            basic.showLeds(`
+                # . . . #
+                # # . # #
+                # . # . #
+                # . . . #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 14) {
+            basic.showLeds(`
+                # # . . #
+                # # # . #
+                # . # # #
+                # . . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 15) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 16) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # . . .
+                . # . . .
+                `)
+        }
+        if (Buchstabe == 17) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # . # .
+                . # # # .
+                . . . . #
+                `)
+        }
+        if (Buchstabe == 18) {
+            basic.showLeds(`
+                . # # # .
+                . # . # .
+                . # # # .
+                . # # . .
+                . # . # .
+                `)
+        }
+        if (Buchstabe == 19) {
+            basic.showLeds(`
+                . . # # .
+                . # . . .
+                . # # # .
+                . . . # .
+                . # # . .
+                `)
+        }
+        if (Buchstabe == 20) {
+            basic.showLeds(`
+                . # # # .
+                . . # . .
+                . . # . .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 21) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . # # # .
+                `)
+        }
+        if (Buchstabe == 22) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # . # .
+                . # . # .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 23) {
+            basic.showLeds(`
+                # . . . #
+                # . . . #
+                # . # . #
+                # # . # #
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 24) {
+            basic.showLeds(`
+                # . . . #
+                . # . # .
+                . . # . .
+                . # . # .
+                # . . . #
+                `)
+        }
+        if (Buchstabe == 25) {
+            basic.showLeds(`
+                . # . # .
+                . # . # .
+                . # # # .
+                . . # . .
+                . . # . .
+                `)
+        }
+        if (Buchstabe == 26) {
+            basic.showLeds(`
+                . # # # .
+                . . . # .
+                . . # . .
+                . # . . .
+                . # # # .
+                `)
+        }
+    }
+})
+let Buchstabe_V2 = 0
+let rights = 0
+let nichts = 0
+let _10B = 0
+let _9B = 0
+let _8B = 0
+let _7B = 0
+let _6B = 0
+let _5B = 0
+let _4B = 0
+let _3B = 0
+let _2B = 0
+let Fehler = 0
+let log = 0
+let Buchstabe = 0
+let _1B = 0
+let Zahl = 0
+let _switch = 0
+let Ben = 0
+basic.pause(500)
+Ben = 11
+_switch = 0
+Zahl = 1
+basic.showLeds(`
+    . . # . .
+    . # # . .
+    . . # . .
+    . . # . .
+    . # # # .
+    `)
+basic.forever(function () {
+    if (rights == Zahl) {
+        for (let index = 0; index < 3; index++) {
+            basic.showString("Win !")
+        }
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            # . . . #
+            # # # # #
+            `)
+    }
+})
+basic.forever(function () {
+    if (log == 2) {
+        Ben = 20
+        log = 3
+        basic.showLeds(`
+            . # # # .
+            . # . . .
+            . # # # .
+            . . . # .
+            . # # # .
+            `)
+        basic.showLeds(`
+            . . . # .
+            . . # # .
+            . # . # .
+            . # # # .
+            . . . # .
+            `)
+        basic.showLeds(`
+            . # # # .
+            . . . # .
+            . # # # .
+            . . . # .
+            . # # # .
+            `)
+        basic.showLeds(`
+            . # # # .
+            . . . # .
+            . . # . .
+            . # . . .
+            . # # # .
+            `)
+        basic.showLeds(`
+            . . # . .
+            . # # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . # # # .
+            . # . # .
+            . # . # .
+            . # . # .
+            . # # # .
+            `)
+        basic.showString("Zahl =")
+        basic.pause(100)
+        basic.showNumber(Zahl)
+        Buchstabe = 1
+        Buchstabe_V2 = 4
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . # .
+            . # . # .
+            `)
+    }
+})
+basic.forever(function () {
+    if (Ben == Zahl) {
+        _switch = 21
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        log = 2
+    }
+})
+basic.forever(function () {
+	
+})
+basic.forever(function () {
+    if (Fehler == 9) {
+        basic.showLeds(`
+            . . # . .
+            # # # # #
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+        basic.pause(500)
+        basic.showString("Fail")
+        basic.showLeds(`
+            # # # # #
+            # . . . #
+            # . . . #
+            # # # # #
+            . . . . .
+            `)
+        basic.showLeds(`
+            # . . . #
+            # . . . #
+            # # # # #
+            . . . . .
+            # . . . #
+            `)
+        basic.showLeds(`
+            # . . . #
+            # # # # #
+            . . . . .
+            # . . . #
+            . # . # .
+            `)
+        basic.showLeds(`
+            # # # # #
+            . . . . .
+            # . . . #
+            . # . # .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            # . . . #
+            . # . # .
+            . . # . .
+            . # . # .
+            `)
+        basic.showLeds(`
+            # . . . #
+            . # . # .
+            . . # . .
+            . # . # .
+            # . . . #
+            `)
+        basic.showString("Lose!")
+    }
+})
