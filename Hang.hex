@@ -1,5 +1,6 @@
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    basic.showNumber(_1B)
+    basic.showString("Score =")
+    basic.showNumber(score)
 })
 input.onButtonPressed(Button.A, function () {
     if (_switch == 0) {
@@ -2533,106 +2534,6 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.AB, function () {
-    if (Fehler == 1) {
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . # . .
-            `)
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-    }
-    if (Fehler == 2) {
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . # . .
-            . . # . .
-            `)
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-    }
-    if (Fehler == 3) {
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . # . .
-            . . # . .
-            . . # . .
-            `)
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-    }
-    if (Fehler == 4) {
-        basic.showLeds(`
-            . . . . .
-            . . # . .
-            . . # . .
-            . . # . .
-            . . # . .
-            `)
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-    }
-    if (Fehler == 5) {
-        basic.showLeds(`
-            . . # . .
-            . . # . .
-            . . # . .
-            . . # . .
-            . . # . .
-            `)
-    }
-    if (Fehler == 6) {
-        basic.showLeds(`
-            . . # . .
-            . . # # .
-            . . # . .
-            . . # . .
-            . . # . .
-            `)
-    }
-    if (Fehler == 7) {
-        basic.showLeds(`
-            . . # . .
-            . # # # .
-            . . # . .
-            . . # . .
-            . . # . .
-            `)
-    }
-    if (Fehler == 8) {
-        basic.showLeds(`
-            . . # . .
-            # # # # .
-            . . # . .
-            . . # . .
-            . . # . .
-            `)
-    }
     if (_switch > 2) {
         _switch += 1
     }
@@ -2791,6 +2692,7 @@ input.onButtonPressed(Button.AB, function () {
                 # . # . .
                 . # . . .
                 `)
+            v1 = _1B
             rights += 1
             _1B = 28
             nichts = 0
@@ -2805,6 +2707,7 @@ input.onButtonPressed(Button.AB, function () {
                 # . # . .
                 . # . . .
                 `)
+            v2 = _2B
             rights += 1
             _2B = 28
             nichts = 0
@@ -2819,6 +2722,7 @@ input.onButtonPressed(Button.AB, function () {
                 # . # . .
                 . # . . .
                 `)
+            v3 = _3B
             rights += 1
             _3B = 28
             nichts = 0
@@ -2833,6 +2737,7 @@ input.onButtonPressed(Button.AB, function () {
                 # . # . .
                 . # . . .
                 `)
+            v4 = _4B
             rights += 1
             _4B = 28
             nichts = 0
@@ -2847,6 +2752,7 @@ input.onButtonPressed(Button.AB, function () {
                 # . # . .
                 . # . . .
                 `)
+            v5 = _5B
             rights += 1
             _5B = 28
             nichts = 0
@@ -2861,6 +2767,7 @@ input.onButtonPressed(Button.AB, function () {
                 # . # . .
                 . # . . .
                 `)
+            v6 = _6B
             rights += 1
             _6B = 28
             nichts = 0
@@ -2875,6 +2782,7 @@ input.onButtonPressed(Button.AB, function () {
                 # . # . .
                 . # . . .
                 `)
+            v7 = _7B
             rights += 1
             _7B = 28
             nichts = 0
@@ -2889,6 +2797,7 @@ input.onButtonPressed(Button.AB, function () {
                 # . # . .
                 . # . . .
                 `)
+            v8 = _8B
             rights += 1
             _8B = 28
             nichts = 0
@@ -2903,6 +2812,7 @@ input.onButtonPressed(Button.AB, function () {
                 # . # . .
                 . # . . .
                 `)
+            v9 = _9B
             rights += 1
             _9B = 28
             nichts = 0
@@ -2917,6 +2827,7 @@ input.onButtonPressed(Button.AB, function () {
                 # . # . .
                 . # . . .
                 `)
+            v10 = _10B
             rights += 1
             _10B = 28
             nichts = 0
@@ -2930,7 +2841,115 @@ input.onButtonPressed(Button.AB, function () {
                 # . . . #
                 `)
             Fehler += 1
+            Buchstabe = 1
+            basic.showLeds(`
+                . . # . .
+                . # . # .
+                . # # # .
+                . # . # .
+                . # . # .
+                `)
         }
+    }
+    if (Fehler == 1) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+    if (Fehler == 2) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+    if (Fehler == 3) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+    if (Fehler == 4) {
+        basic.showLeds(`
+            . . . . .
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+    if (Fehler == 5) {
+        basic.showLeds(`
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+    }
+    if (Fehler == 6) {
+        basic.showLeds(`
+            . . # . .
+            . . # # .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+    }
+    if (Fehler == 7) {
+        basic.showLeds(`
+            . . # . .
+            . # # # .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+    }
+    if (Fehler == 8) {
+        basic.showLeds(`
+            . . # . .
+            # # # # .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
     }
 })
 input.onButtonPressed(Button.B, function () {
@@ -5464,8 +5483,21 @@ input.onButtonPressed(Button.B, function () {
         }
     }
 })
+let vlog = 0
 let Buchstabe_V2 = 0
+let Wins = 0
+let Fehler = 0
+let v10 = 0
+let v9 = 0
+let v8 = 0
+let v7 = 0
+let v6 = 0
+let v5 = 0
+let v4 = 0
+let v3 = 0
+let v2 = 0
 let rights = 0
+let v1 = 0
 let nichts = 0
 let _10B = 0
 let _9B = 0
@@ -5476,10 +5508,10 @@ let _5B = 0
 let _4B = 0
 let _3B = 0
 let _2B = 0
-let Fehler = 0
+let _1B = 0
 let log = 0
 let Buchstabe = 0
-let _1B = 0
+let score = 0
 let Zahl = 0
 let _switch = 0
 let Ben = 0
@@ -5505,6 +5537,26 @@ basic.forever(function () {
             . . . . .
             # . . . #
             # # # # #
+            `)
+        rights = 11
+        Wins = 1
+    }
+})
+basic.forever(function () {
+    if (Wins == 2) {
+        basic.showString("Congratulations")
+        basic.clearScreen()
+        control.reset()
+        basic.pause(500)
+        Ben = 11
+        _switch = 0
+        Zahl = 1
+        basic.showLeds(`
+            . . # . .
+            . # # . .
+            . . # . .
+            . . # . .
+            . # # # .
             `)
     }
 })
@@ -5569,6 +5621,289 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
+    if (Wins == 1) {
+        score += 1
+        for (let index = 0; index < 11; index++) {
+            basic.pause(1000)
+            vlog += 1
+            if (vlog == 1) {
+                Buchstabe = v1
+            }
+            if (vlog == 2) {
+                Buchstabe = v2
+            }
+            if (vlog == 3) {
+                Buchstabe = v3
+            }
+            if (vlog == 4) {
+                Buchstabe = v4
+            }
+            if (vlog == 5) {
+                Buchstabe = v5
+            }
+            if (vlog == 6) {
+                Buchstabe = v6
+            }
+            if (vlog == 7) {
+                Buchstabe = v7
+            }
+            if (vlog == 8) {
+                Buchstabe = v8
+            }
+            if (vlog == 9) {
+                Buchstabe = v9
+            }
+            if (vlog == 10) {
+                Buchstabe = v10
+            }
+            if (vlog == 11) {
+                Wins = 2
+                basic.showLeds(`
+                    . . . . .
+                    . . . . .
+                    . . . . .
+                    . . . . .
+                    . . . . .
+                    `)
+            }
+            if (Buchstabe == 1) {
+                basic.showLeds(`
+                    . . # . .
+                    . # . # .
+                    . # # # .
+                    . # . # .
+                    . # . # .
+                    `)
+            }
+            if (Buchstabe == 2) {
+                basic.showLeds(`
+                    . # # . .
+                    . # . # .
+                    . # # . .
+                    . # . # .
+                    . # # . .
+                    `)
+            }
+            if (Buchstabe == 3) {
+                basic.showLeds(`
+                    . # # # .
+                    . # . . .
+                    . # . . .
+                    . # . . .
+                    . # # # .
+                    `)
+            }
+            if (Buchstabe == 4) {
+                basic.showLeds(`
+                    . # # . .
+                    . # . # .
+                    . # . # .
+                    . # . # .
+                    . # # . .
+                    `)
+            }
+            if (Buchstabe == 5) {
+                basic.showLeds(`
+                    . # # # .
+                    . # . . .
+                    . # # # .
+                    . # . . .
+                    . # # # .
+                    `)
+            }
+            if (Buchstabe == 6) {
+                basic.showLeds(`
+                    . # # # .
+                    . # . . .
+                    . # # # .
+                    . # . . .
+                    . # . . .
+                    `)
+            }
+            if (Buchstabe == 7) {
+                basic.showLeds(`
+                    . # # # .
+                    . # . . .
+                    . # . # .
+                    . # . # .
+                    . # # # .
+                    `)
+            }
+            if (Buchstabe == 8) {
+                basic.showLeds(`
+                    . # . # .
+                    . # . # .
+                    . # # # .
+                    . # . # .
+                    . # . # .
+                    `)
+            }
+            if (Buchstabe == 9) {
+                basic.showLeds(`
+                    . # # # .
+                    . . # . .
+                    . . # . .
+                    . . # . .
+                    . # # # .
+                    `)
+            }
+            if (Buchstabe == 10) {
+                basic.showLeds(`
+                    . # # # .
+                    . . . # .
+                    . . . # .
+                    . # . # .
+                    . # # # .
+                    `)
+            }
+            if (Buchstabe == 11) {
+                basic.showLeds(`
+                    . # . # .
+                    . # . # .
+                    . # # . .
+                    . # . # .
+                    . # . # .
+                    `)
+            }
+            if (Buchstabe == 12) {
+                basic.showLeds(`
+                    . # . . .
+                    . # . . .
+                    . # . . .
+                    . # . . .
+                    . # # # .
+                    `)
+            }
+            if (Buchstabe == 13) {
+                basic.showLeds(`
+                    # . . . #
+                    # # . # #
+                    # . # . #
+                    # . . . #
+                    # . . . #
+                    `)
+            }
+            if (Buchstabe == 14) {
+                basic.showLeds(`
+                    # # . . #
+                    # # # . #
+                    # . # # #
+                    # . . # #
+                    # . . . #
+                    `)
+            }
+            if (Buchstabe == 15) {
+                basic.showLeds(`
+                    . # # # .
+                    . # . # .
+                    . # . # .
+                    . # . # .
+                    . # # # .
+                    `)
+            }
+            if (Buchstabe == 16) {
+                basic.showLeds(`
+                    . # # # .
+                    . # . # .
+                    . # # # .
+                    . # . . .
+                    . # . . .
+                    `)
+            }
+            if (Buchstabe == 17) {
+                basic.showLeds(`
+                    . # # # .
+                    . # . # .
+                    . # . # .
+                    . # # # .
+                    . . . . #
+                    `)
+            }
+            if (Buchstabe == 18) {
+                basic.showLeds(`
+                    . # # # .
+                    . # . # .
+                    . # # # .
+                    . # # . .
+                    . # . # .
+                    `)
+            }
+            if (Buchstabe == 19) {
+                basic.showLeds(`
+                    . . # # .
+                    . # . . .
+                    . # # # .
+                    . . . # .
+                    . # # . .
+                    `)
+            }
+            if (Buchstabe == 20) {
+                basic.showLeds(`
+                    . # # # .
+                    . . # . .
+                    . . # . .
+                    . . # . .
+                    . . # . .
+                    `)
+            }
+            if (Buchstabe == 21) {
+                basic.showLeds(`
+                    . # . # .
+                    . # . # .
+                    . # . # .
+                    . # . # .
+                    . # # # .
+                    `)
+            }
+            if (Buchstabe == 22) {
+                basic.showLeds(`
+                    . # . # .
+                    . # . # .
+                    . # . # .
+                    . # . # .
+                    . . # . .
+                    `)
+            }
+            if (Buchstabe == 23) {
+                basic.showLeds(`
+                    # . . . #
+                    # . . . #
+                    # . # . #
+                    # # . # #
+                    # . . . #
+                    `)
+            }
+            if (Buchstabe == 24) {
+                basic.showLeds(`
+                    # . . . #
+                    . # . # .
+                    . . # . .
+                    . # . # .
+                    # . . . #
+                    `)
+            }
+            if (Buchstabe == 25) {
+                basic.showLeds(`
+                    . # . # .
+                    . # . # .
+                    . # # # .
+                    . . # . .
+                    . . # . .
+                    `)
+            }
+            if (Buchstabe == 26) {
+                basic.showLeds(`
+                    . # # # .
+                    . . . # .
+                    . . # . .
+                    . # . . .
+                    . # # # .
+                    `)
+            }
+        }
+    }
+})
+basic.forever(function () {
     if (Ben == Zahl) {
         _switch = 21
         basic.showLeds(`
@@ -5580,9 +5915,6 @@ basic.forever(function () {
             `)
         log = 2
     }
-})
-basic.forever(function () {
-	
 })
 basic.forever(function () {
     if (Fehler == 9) {
